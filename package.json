@@ -1,0 +1,39 @@
+{
+  "name": "grunt-notes",
+  "description": "Enumerate annotations like todo, fixme, optimize or note",
+  "version": "0.1.0",
+  "homepage": "https://github.com/t93/grunt-notes",
+  "author": {
+    "name": "t93",
+    "email": "dots64if@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tk93/grunt-notes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/t93/grunt-notes/issue"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/t93/grunt-notes/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "notes": "git://github.com/t93/node-notes"
+  }
+}
