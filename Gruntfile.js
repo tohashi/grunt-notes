@@ -12,8 +12,17 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         notes: {
-            default: {
-                src: './'
+            example: {
+                src: './',
+                options: {
+                    annotations: {
+                        'xxx': {
+                            name: 'XXX',
+                            label: '♨ XXX',
+                            color: 'cyan'
+                        }
+                    }
+                }
             }
         }
     });

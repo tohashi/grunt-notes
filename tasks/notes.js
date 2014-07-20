@@ -12,11 +12,10 @@ var Notes = require('notes');
 
 module.exports = function(grunt) {
 
-    // TODO custom annotation
-    // TODO ignore options
+    // TODO ignoring options
     grunt.registerMultiTask('notes', 'Enumerate annotations like todo, fixme, optimize or note', function() {
         var done = this.async();
-        var notes = new Notes(this.src || './');
+        var notes = new Notes(this.src || './', this.options());
 
         notes.annotate(done);
     });

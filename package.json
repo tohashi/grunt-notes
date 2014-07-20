@@ -1,6 +1,6 @@
 {
   "name": "grunt-notes",
-  "description": "Enumerate annotations like todo, fixme, optimize or note",
+  "description": "Enumerate annotations like todo, fixme, optimize or note.",
   "version": "0.1.0",
   "homepage": "https://github.com/t93/grunt-notes",
   "author": {
